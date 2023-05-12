@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.google-logo {
+  width: 35vw;
+}
+.list-container {
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 10px;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+}
+.input-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40vw;
+}
+.search-img {
+  color: #bfbfbf;
+  height: 3vh;
+  margin-right: 1vh;
+}
+.input-ele {
+  border: none;
+  outline: none;
+  min-width: 36vw;
+  margin-left: 1vh;
+  margin-top: 1vh;
+  font-size: 2.5vh;
+}

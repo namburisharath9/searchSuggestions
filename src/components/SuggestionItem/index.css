@@ -1,0 +1,20 @@
+/* Write your CSS here */
+
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+}
+.list-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 2.5vh;
+}
+.arrow-img {
+  color: #bfbfbf;
+  height: 3vh;
+  margin-right: 3vh;
+}
